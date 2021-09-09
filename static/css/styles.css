@@ -1,0 +1,102 @@
+body {
+    background-color: #ffc153; /*#Eb6b56;/*#F5B041;*/
+    text-align: center;
+}
+
+.navbar {
+    background-color: #4C4C46;
+
+}
+
+a {
+    color: #3ee9e9;
+    text-align: right;
+}
+
+a:hover {
+    color: #b32ace;
+  }
+
+
+
+
+
+h1 {
+    font-size: 2em;
+    z-index: 2;   /*para que se superponga a la imgen*/
+}
+
+.container{
+    /*background-color: #9ACD32; /*#1b2127*/
+    width: auto;
+    margin: 0 auto;
+    }
+
+.hero {
+        height: 150px;
+        width: 1200px;
+        /*background-image: url('../images/hero.jpg');*/
+        /*background-color: #9ACD32; EL COLOR VERDECITO LO QUITÉ
+        /*background-size: 500px 300px;   /*ancho y alto*/
+        /*background-repeat: no-repeat;*/
+        /*background-position-x: right;  /*tb puede poner 100px xejm*/
+        /*display: flex;*/
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;  /*tb hereda a los hjos de los hijos*/
+    }
+
+
+.container1{
+    max-width: 1000px;
+   /* max-height: 800px;*/
+    flex:1;
+    margin: 0 auto;
+
+    }
+
+.container2{
+        max-width: 1000px;
+        flex:1;
+        margin: 0 auto;
+    
+        }
+
+.imagen-a-la-izquierda {   /*en el video dice .header.logo pero no es así, en los coments salió que es .logo y si funcionó V.11 Min.11:10*/
+            text-align:right;
+            margin-left: .5em;
+            max-height: 50px;
+        }
+
+
+.texto1{
+            font-size: 32px;  /*le quitó esto el profe pq x defecto es de 16 aunque le quite pero yo no le voy a quitar*/
+            color: rgb(39, 38, 38)
+        }
+
+.texto2{
+    font-size: 22px;  /*le quitó esto el profe pq x defecto es de 16 aunque le quite pero yo no le voy a quitar*/
+        }
+
+.nota {
+    font-size: 19px;
+}
+
+
+.card{
+    background-color: #47b39d;/*#Eb6b56;*/
+}
+
+.btn {
+    background-color: #643864/*#eb6b56;*/
+}
+
+.footer {
+            color: white;
+            background-color: #363634;
+            /*display: flex;
+           /* align-items: center;
+           /* justify-content: space-between;
+            /*flex-wrap: wrap;  /*esto del flex-wrap solo funciona si estamos usando flexbox*/
+        }
+    

@@ -1,0 +1,220 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción Precio Vuelos</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://github.com/viviblue2020/Predicci-n_Precio_Vuelos/blob/main/Predic_Precio_Vuelos.ipynb">CLIC PARA CONSULTAR EL NOTEBOOK</a>
+            </div>
+        </div> 
+    </nav>
+
+<br>   
+
+<div class="container">
+            <section class="hero">
+               <!-- <div class="container1"> -->
+                    <h1 class="texto1">
+                        <strong> IMPLEMENTACIÓN DE UN MODELO DE MACHINE LEARNING </strong> <br> <strong> PARA PREDECIR LOS PRECIOS DE TICKETS DE VUELO </strong>
+                    </h1>     
+                    <br>
+                    <h2 class="texto2">
+                        Por favor ingresa los siguientes datos para obtener la predicción del precio de tu vuelo 
+                       <br> 
+                    <p class="nota"> Nota: Aplica únicamente para vuelos dentro de India. </p>    
+                    </h2>               
+                <!-- </div> -->
+            </section> 
+</div>
+
+   <br><br>
+
+    <div class="container2">
+
+        <form action="\predict" method="post">
+
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">INGRESA: Fecha de salida - Hora - AM o PM</h5>
+                            <!-- Departure -->
+                            <input type="datetime-local" name="Dep_Time" id="Dep_Time" required="required">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">INGRESA: Fecha de llegada - Hora - AM o PM</h5>
+                            <!-- Arrival -->
+                            <input type="datetime-local" name="Arrival_Time" id="Arrival_Time" required="required">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Source -->
+                            <h5 class="card-title">Elige el origen</h5>
+                            <select name="Source" id="Source" required="required">
+                                <option value="Delhi">Delhi</option>
+                                <option value="Kolkata">Kolkata</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Chennai">Chennai</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Elige el destino</h5>
+                            <!-- Destination -->
+                            <select name="Destination" id="Destination" required="required">
+                                <option value="Cochin">Cochin</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="New Delhi">New Delhi</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Kolkata">Kolkata</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Número de escalas</h5>
+                            <!-- Total Stops -->
+                            <select name="stops" required="required">
+                                <option value="0">Sin-escalas</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">¿En qué aerolínea deseas viajar?</h5>
+                            <!-- Airline -->
+                            <select name="airline" id="airline" required="required">
+                                <option value="Jet Airways">Jet Airways</option>
+                                <option value="IndiGo">IndiGo</option>
+                                <option value="Air India">Air India</option>
+                                <option value="Multiple carriers">Multiple carriers</option>
+                                <option value="SpiceJet">SpiceJet</option>
+                                <option value="Vistara">Vistara</option>
+                                <option value="Air Asia">Air Asia</option>
+                                <option value="GoAir">GoAir</option>
+                                <option value="Multiple carriers Premium economy">Multiple Carriers Premium Economy
+                                </option>
+                                <option value="Jet Airways Business">Jet Airways Business</option>
+                                <option value="Vistara Premium economy">Vistara Premium Economy</option>
+                                <option value="Trujet">Trujet</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+            <!-- Submit -->
+            <input type="submit" value="ENVIAR" class="btn btn-secondary">
+        </form>
+
+        <br>
+        <br>
+        <h3>{{ prediction_text }}</h3>
+
+        <br> 
+       <!-- <p>Créditos: © Amar Mandal 2020</p>
+        <p>Modificaciones por: Viviana Márquez 2021</p> -->
+    </div>
+
+
+<footer class="footer">
+                <div class="container">
+                    <div>
+                    <br>
+                        <p>Proyecto: Implementación de modelo de Machine Learning para la predicción de precios de vuelos en India, usando Python.</p>
+                    </div>
+                    <div>
+                        <p>
+                            Adaptado con 💕 por: Viviana Márquez Ramírez (2021) <br> Mi e-mail: anabelmr20@gmail.com
+                            <a href="https://www.linkedin.com/in/vivianamarquezr//"> <br> Mi Linkedin <br>  </a>
+                            <a href="https://github.com/viviblue2020" class="social-link github"> Mi Github</a>
+                        </p>
+                        <p>Créditos: © Amar Mandal 2020</p>
+                        <br>
+                    </div>
+                </div>
+</footer>    
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+ <!--           <figure class="imagen-a-la-izquierda">
+                    <img class= "mi-imagen" src="https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg" width="500" height="300" alt="imagen principal del sitio">       
+                </figure>  
+                -->
