@@ -47,7 +47,7 @@ Repositorio: https://github.com/viviblue2020/Predicci-n_Precio_Vuelos   <br>
 Notebook: https://github.com/viviblue2020/Predicci-n_Precio_Vuelos/blob/main/Predic_Precio_Vuelos.ipynb  <br>
 Dataset: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1   <br>
 
-**CRÉDITOS:**  <br> <br>
+**CRÉDITOS:**  <br> 
 
 Amar Mandal  <br>
 Linkedin: https://www.linkedin.com/posts/amar-mandal_python-machinelearning-ai-activity-6684710743859888128-6ktE/  <br>
@@ -55,7 +55,7 @@ Linkedin: https://www.linkedin.com/posts/amar-mandal_python-machinelearning-ai-a
 Krish Naik  <br>
 Implementation Of Flight Fare Prediction Web App Project With Deployment: https://www.youtube.com/watch?v=y4EMEpEnElQ  <br>
 Deployment of ML models in Heroku using FLASK: https://www.youtube.com/watch?v=mrExsjcvF4o
- <br> <br>
+ <br> 
 Nikhi Mittal
 Dataset: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1
  <br> <br>
