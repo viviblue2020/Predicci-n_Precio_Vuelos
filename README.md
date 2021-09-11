@@ -15,52 +15,53 @@ Podría dividir este proyecto en dos fases que detallo a continuación:
 • Creación del archivo .pkl para guardar el modelo.  <br>
 
 **SEGUNDA FASE:** <br>
-• Creación de una API usando Flask para correr el archivo .pkl que aloja el modelo.
-• Sitio web para alojar la API (La página no tiene 'responsive design' por lo cual visualmente anda mejor si se abre desde un computador).
-• Creación del repositorio en Github para alojar todos los archivos.
-• Implementación o deployment en Heroku.
+• Creación de una API usando Flask para correr el archivo .pkl que aloja el modelo.   <br>
+• Sitio web para alojar la API (La página no tiene 'responsive design' por lo cual visualmente anda mejor si se abre desde un computador).   <br>
+• Creación del repositorio en Github para alojar todos los archivos.   <br>
+• Implementación o deployment en Heroku.   <br>
 
 **TECNOLOGÍAS:**  <br>
 
 Librerías de Python:
-• Pandas
-• Numpy
-• Matplotlib
-• Seaborn
-• Scikit-learn
-• Flask
+• Pandas  <br>
+• Numpy   <br>
+• Matplotlib   <br>
+• Seaborn   <br>
+• Scikit-learn   <br>
+• Flask   <br>
 
-Modificaciones agregadas a la página web original (En Visual Studio Code)
-• html5
-• css
+Modificaciones agregadas a la página web original (En Visual Studio Code)   <br>
+• html5  <br>
+• css   <br>
 
-Repositorio
-• Github
+Repositorio   <br>
+• Github   <br>
 
-Plataforma para la implementación de la API
-• Heroku
+Plataforma para la implementación de la API   <br>
+• Heroku   <br>
 
-**ENLACES DEL PROYECTO:**
+**ENLACES DEL PROYECTO:**   <br>
 
-Sitio web: https://vuelos-predic-vm.herokuapp.com/
-Repositorio: https://github.com/viviblue2020/Predicci-n_Precio_Vuelos
-Notebook: https://github.com/viviblue2020/Predicci-n_Precio_Vuelos/blob/main/Predic_Precio_Vuelos.ipynb
-Dataset: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1
+Sitio web: https://vuelos-predic-vm.herokuapp.com/   <br>
+Repositorio: https://github.com/viviblue2020/Predicci-n_Precio_Vuelos   <br>
+Notebook: https://github.com/viviblue2020/Predicci-n_Precio_Vuelos/blob/main/Predic_Precio_Vuelos.ipynb  <br>
+Dataset: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1   <br>
 
-**CRÉDITOS:**
+**CRÉDITOS:**  <br> <br>
 
-Amar Mandal
-Linkedin: https://www.linkedin.com/posts/amar-mandal_python-machinelearning-ai-activity-6684710743859888128-6ktE/
+Amar Mandal  <br>
+Linkedin: https://www.linkedin.com/posts/amar-mandal_python-machinelearning-ai-activity-6684710743859888128-6ktE/  <br>
 
-Krish Naik
-Implementation Of Flight Fare Prediction Web App Project With Deployment: https://www.youtube.com/watch?v=y4EMEpEnElQ
+Krish Naik  <br>
+Implementation Of Flight Fare Prediction Web App Project With Deployment: https://www.youtube.com/watch?v=y4EMEpEnElQ  <br>
 Deployment of ML models in Heroku using FLASK: https://www.youtube.com/watch?v=mrExsjcvF4o
-
+ <br> <br>
 Nikhi Mittal
 Dataset: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1
+ <br> <br>
+ 
+*Gracias por llegar hasta aquí*  <br>
 
-*Gracias por llegar hasta aquí* 
-
-**Viviana Márquez **
-Mi e-mail: anabelmr@gmail.com
-Mi Linkedin: https://www.linkedin.com/in/vivianamarquezr/
+**Viviana Márquez **  <br>
+Mi e-mail: anabelmr@gmail.com  <br>
+Mi Linkedin: https://www.linkedin.com/in/vivianamarquezr/  <br>
