@@ -55,6 +55,7 @@ Linkedin: https://www.linkedin.com/posts/amar-mandal_python-machinelearning-ai-a
 Krish Naik  <br>
 Implementation Of Flight Fare Prediction Web App Project With Deployment: https://www.youtube.com/watch?v=y4EMEpEnElQ  <br>
 Deployment of ML models in Heroku using FLASK: https://www.youtube.com/watch?v=mrExsjcvF4o  <br> 
+
 Nikhi Mittal
 Dataset: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1
  <br> <br>
