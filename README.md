@@ -7,12 +7,12 @@ información útil en materia de Machine Learning y Data Science. Dejo los enlac
 Podría dividir este proyecto en dos fases que detallo a continuación:
 
 **PRIMERA FASE:**  <br>
-• Carga de dataset. 
-• Análisis Exploratorio de Datos (AED). Detección  y tratamiento datos nulos.
-• Transformación de variables categóricas con técnicas como One Hot Encoding y Label Encoding.
-• Modelo de predicción 'Random Forest'.
-• Ajuste de hiperparámetros.
-• Creación del archivo .pkl para guardar el modelo.
+• Carga de dataset.   <br>
+• Análisis Exploratorio de Datos (AED). Detección  y tratamiento datos nulos. <br>
+• Transformación de variables categóricas con técnicas como One Hot Encoding y Label Encoding.  <br>
+• Modelo de predicción 'Random Forest'.  <br>
+• Ajuste de hiperparámetros.  <br>
+• Creación del archivo .pkl para guardar el modelo.  <br>
 
 **SEGUNDA FASE:** <br>
 • Creación de una API usando Flask para correr el archivo .pkl que aloja el modelo.
