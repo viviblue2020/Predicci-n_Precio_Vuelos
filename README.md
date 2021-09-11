@@ -1,7 +1,7 @@
 # Predicción del precio de vuelos usando Python e implementación empleando Flask y Heroku.
 
 Estoy feliz de compartir con ustedes el proyecto de Machine Learning para predecir los precios de tickets de vuelos en aerolíneas de India. Analicé el dataset 'Flight_Fare' conformado por más de 10 mil registros en un año determinado. Se compone de 10 variables independientes categóricas y la variable dependiente numérica 'Price', la cual representa los precios a predecir.
-Este trabajo se basa en el proyecto de Amar Mandal y Krish Naik, a quienes quiero agradecer por por compartir su conocimiento, material e 
+Este trabajo se basa en el proyecto de Amar Mandal y Krish Naik, a quienes quiero agradecer por compartir su conocimiento, material e 
 información útil en materia de Machine Learning y Data Science. Dejo los enlaces en la parte de abajo, por si desean pasar por ahí.
 
 Podría dividir este proyecto en dos fases que detallo a continuación:
