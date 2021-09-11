@@ -62,6 +62,6 @@ Dataset: https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/version/1
  
 *Gracias por llegar hasta aquí*  <br>
 
-**Viviana Márquez **  <br>
+**Viviana Márquez**  <br>
 Mi e-mail: anabelmr@gmail.com  <br>
 Mi Linkedin: https://www.linkedin.com/in/vivianamarquezr/  <br>
