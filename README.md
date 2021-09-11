@@ -6,7 +6,7 @@ información útil en materia de Machine Learning y Data Science. Dejo los enlac
 
 Podría dividir este proyecto en dos fases que detallo a continuación:
 
-**PRIMERA FASE:**
+**PRIMERA FASE:**  <br>
 • Carga de dataset. 
 • Análisis Exploratorio de Datos (AED). Detección  y tratamiento datos nulos.
 • Transformación de variables categóricas con técnicas como One Hot Encoding y Label Encoding.
@@ -14,13 +14,13 @@ Podría dividir este proyecto en dos fases que detallo a continuación:
 • Ajuste de hiperparámetros.
 • Creación del archivo .pkl para guardar el modelo.
 
-**SEGUNDA FASE:**
+**SEGUNDA FASE:** <br>
 • Creación de una API usando Flask para correr el archivo .pkl que aloja el modelo.
 • Sitio web para alojar la API (La página no tiene 'responsive design' por lo cual visualmente anda mejor si se abre desde un computador).
 • Creación del repositorio en Github para alojar todos los archivos.
 • Implementación o deployment en Heroku.
 
-**TECNOLOGÍAS:**
+**TECNOLOGÍAS:**  <br>
 
 Librerías de Python:
 • Pandas
